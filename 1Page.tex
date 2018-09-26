@@ -1,0 +1,221 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Hrushikesh Sudam Sarode} & Email : \href{mailto:contact@shreyasb.com}{b16032@students.iitmandi.ac.in}\\
+  \href{https://gihub.com/hrishi32/}{GitHub: hrishi32} & Mobile : +91-968-935-9769\\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+
+   \resumeSubHeadingListStart
+   % \resumeSubheading
+     % {Georgia Institute of Technology}{Atlanta, GA}
+    %  {Master of Science in Computer Science;  GPA: 4.00}{Aug. 2012 -- Dec. 2013}
+    \resumeSubheading
+      {Indian Institute of Technology Mandi}{Mandi, India}
+      {Bachelor of Technology in Computer Science Engineering;  CGPA: 6.6/10.0}{Aug. 2016 -- Present}
+
+  
+
+   % \resumeSubheading
+     % {Georgia Institute of Technology}{Atlanta, GA}
+    %  {Master of Science in Computer Science;  GPA: 4.00}{Aug. 2012 -- Dec. 2013}
+    \resumeSubheading
+      {PVP Junior College, Pravaranagar}{Ahmednagar, India}
+      {High School;  Percentage: 77.8}{May 2015}
+
+   % \resumeSubheading
+     % {Georgia Institute of Technology}{Atlanta, GA}
+    %  {Master of Science in Computer Science;  GPA: 4.00}{Aug. 2012 -- Dec. 2013}
+    \resumeSubheading
+      {New English School, Kankuri}{Ahmednagar, India}
+      {Class 10th; Maharashtra State Board; Percentage: 69.69}{May 2013}
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+%\section{Publications}
+%  \resumeSubHeadingListStart
+%    \resumeSubheading
+%      {Projecthiko 1.O - The Voice and Internet Enabled Smart Home}{IJETSR- ISSN 2394 3386}
+%      {Author}{Volume 4, Issue 6 | June 2017}
+%      \resumeItemListStart
+%        \resumeItem{Cost Enhancements}
+%          {Deviced a very cheap and efficient way of making a home smart.}
+%        \resumeItem{Flask, Google Speech}
+%          {Used Flask and HTML,CSS to create a web interface for handling the resources in home. Flask is a python based framework that can provide a stable backend to websites. Also implemeted the Google Speech API to access the voice inputs of the user.}
+%      \resumeItemListEnd
+%  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+%\section{Experience}
+%  \resumeSubHeadingListStart
+
+%    \resumeSubheading
+%      {Poliastro - OpenAstronomy}{Barcelona, Spain}
+%      {Software Development Intern}{May 2018 - Present}
+%      \resumeItemListStart
+%        \resumeItem{pypi release 0.10}
+%          {Worked for the 0.10 release of poliastro.}
+%        \resumeItem{Backends for Orbit Plotting}
+%          {Restructured the whole plotting module and created two different backends for plotting. One using plotly and the other using mat-
+%plotlib.}
+	%	\resumeItem{2D Interactive Plotting}
+%		{Created a class for 2D plotting using plotly. This created interactive 2D plotting for orbits.}
+ %     \resumeItemListEnd
+
+   
+
+%    \resumeSubheading
+%      {Indian Institute of Technology Mandi}{Mandi, India}
+%      {Teaching Assistant}{Feb. 2018 - Jun. 2018}
+%      \resumeItemListStart
+%        \resumeItem{Programming and Data Structures Practicum}
+%          {Helped students understand complex Data Structures and Algorithms. Cleared their doubts for DS implementations in C}
+%      \resumeItemListEnd
+
+
+
+ % \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Application Process for Mechanical Workshop, IIT Mandi}
+      {It procceses the application through 3 types of users. Built on PHP framework Laravel. Interactive User Interface for requesting products from mechanical workshop by uploading the CAD model of the same.}
+    \resumeSubItem{Lab Equipment Booking Portal, BioX Lab, IIT Mandi}
+      {This is equipment booking portal for laboratory equipments for particular time slots. This is built on PHP based framework Laravel. BioX lab features many equipments which are difficult to handle. Hence an interactive webapp to book slots for the equipments by LDAP login. Link: http://biolab.iitmandi.ac.in . (This is only accesible from IIT Mandi Intranet.)}
+    \resumeSubItem{Financial Money Management and Tracking Tool}
+      {This Software helps to Manage and Track money ow Inside an Institute. It can also be used to generate bills
+or document them and all of this can be monitored by a third person hence the utility. All the transactions
+happening are now documented and can be audited(a feature). This project was done in a team of four.
+This Project was built from scratch using PHP,AJAX, HTML,CSS, MY-SQL and involved Server handling.}
+    \resumeSubItem{Sharing and Auction Platform}
+      {This website enables the crowd of IIT Mandi to Optimize the use of all the resources that are within the
+college by sharing them within a group or by selling them of at the best price that can be achieved within the
+college.This project was done in a team of four.
+This Project was built from scratch using PHP,AJAX, HTML,CSS, MY-SQL and involved Server handling.}
+      \resumeSubItem{Blockchain Based Documenting Software}
+      {This Software creates a platform for Forgery proof documenting and storage using Blockchain.
+Grabbed 3rd prize for a Block-Chain based Software in the Topcoder Hackathon
+The Software was implemented by manipulating a Ethereum Smart contract and passing various encrypted
+user data along the transaction.This project was done in a team of Three.
+This Project was built using PHP,HTML,CSS and involved Solidity, Server handling, encryption-decryption.}
+      \resumeSubItem{A System for Accident Free Roads}
+      {A product that enables a user to handle traffic on hilly roads having sharp turns. Used arduino and accelerometer to detect vehicles and process the data. Implemented a priority queue for givimng priority to the sides of vehicles. }
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+\resumeSubHeadingListStart
+    \resumeSubItem{Languages}
+      {C/C++, shell, NASM, Arduino}
+    \resumeSubItem{Web}
+      {PHP, MySQL, JavaScript}
+  \resumeSubHeadingListEnd
+  
+%-----------PRESENTATIONS-----------------
+\section{Relevant Coursework}
+  \resumeSubHeadingListStart
+
+    \resumeSubItem
+      {Artificial Intelligence}{Ongoing}
+     \resumeSubItem
+      {Formal Languages and Automata Theory}{}
+    \resumeSubItem
+      {Communicating Distributed Processes}{}
+      \resumeSubItem
+      {Advanced Data Structure and Algorithm}{}
+      \resumeSubItem
+      {Information and Database Systems}{}
+      \resumeSubItem
+      {Computer Organization}{}
+      \resumeSubItem
+      {Applied Database Practicum}{}
+      \resumeSubItem
+      {Probability, Statistics and Random Processes}{}
+    
+
+  \resumeSubHeadingListEnd
+
+\section{Awards}
+  \resumeSubHeadingListStart
+
+    \resumeSubItem
+    {TopCoder Hackathon}{3rd Position in 20 Teams}
+
+ \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}

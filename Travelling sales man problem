@@ -1,0 +1,9 @@
+Travelling sales man problem
+Created a custom code to solve the famous Travelling saleman Problem. The solution was an implementation of Simulated annealing with precisely tuned number of modification.\\
+The code was made in c++ and no STL was used to keep the solution computationally light.
+
+
+
+what I have done: wrote python script to find optimal parameters.
+
+Game playing
